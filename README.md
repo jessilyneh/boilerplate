@@ -1,9 +1,14 @@
-### criar o next app:
-npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
-
-### rodar o projeto:
+## rodar o projeto:
 npm run dev
 http://localhost:3000
+
+### rodar testes:
+npm test
+
+## Configs
+
+### criar o next app:
+npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
 
 ### instalar o typescript
 - criar o tsconfig.json
@@ -28,3 +33,5 @@ npm install --save-dev eslint-config-prettier
 npx husky-init
 npm install
 
+### instalar o jest
+npm i jest @babel/preset-typescript @types/jest
