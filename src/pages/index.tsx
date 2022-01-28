@@ -1,10 +1,6 @@
-import Head from 'next/head'
+import Head from "next/head";
 
-type Props = {
-  title: string;
-};
-
-export default function Home({title = "Next js"}) {
+export default function Home({ title = "Next js" }) {
   return (
     <div className="container">
       <Head>
@@ -58,8 +54,7 @@ export default function Home({title = "Next js"}) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+          Powered by <img src="/vercel.svg" alt="Vercel" className="logo" />
         </a>
       </footer>
 
@@ -209,5 +204,5 @@ export default function Home({title = "Next js"}) {
         }
       `}</style>
     </div>
-  )
+  );
 }

@@ -13,3 +13,7 @@ http://localhost:3000
 ### instalar o eslint
 npm install eslint --save-dev
 npm init @eslint/config
+
+## instalar o prettier
+npm install --save-dev --save-exact prettier
+npm install --save-dev eslint-config-prettier
