@@ -14,6 +14,17 @@ http://localhost:3000
 npm install eslint --save-dev
 npm init @eslint/config
 
-## instalar o prettier
+#### rodar o eslint
+eslint src
+
+#### corrigir arquivos
+eslint src --fix
+
+### instalar o prettier
 npm install --save-dev --save-exact prettier
 npm install --save-dev eslint-config-prettier
+
+### instalar o husky
+npx husky-init
+npm install
+
