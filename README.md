@@ -1,53 +1,66 @@
-## Boilerplate Next.js
+# Boilerplate frontend
+<p align="center">A simple project starter to work with TypeScript, React, NextJS and Styled Components</p>
 
-### Rodar o projeto:
-npm run dev
+<p align="center">
+ <a href="## Run the project">Run the project</a> •
+ <a href="### Run tests">Run tests</a> •
+ <a href="## SETUP TECHNOLOGIES">TecHnologies</a> •
+ <a href="## sETUP TESTS">Tests</a> •
+</p>
+
+### Project status:
+<h4 align="center">
+	🚧 doing 🚧
+</h4>
+
+## Run the project
+
+### Run locally:
+(`npm run dev`)
 http://localhost:3000
 
-### Rodar testes:
-npm test
-npm run test:watch
+### Run tests:
+(`npm test`)
+(`npm run test:watch`)
 
-### Rodar o eslint
-eslint src
+### Run eslint
+(`eslint src`)
 
-### Corrigir arquivos
-eslint src --fix
+### Fix files
+(`eslint src --fix`)
 
-## CONFIGURAÇÕES
+## SETUP TECHNOLOGIES
 
-### Criar o next-app:
-npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
+### Create the next-app:
+(`npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"`)
 
-### Instalar o Typescript
-- criar o tsconfig.json
-- rodar o comando npm install --save-dev typescript @types/react @types/node
-- rodar o npm run dev novamente, para popular o tsconfig
+### Install Typescript
+create (`tsconfig.json`)
+run (`npm install --save-dev typescript @types/react @types/node`)
+run (`npm run dev`) again, to populate(`tsconfig.json`)
 
-### Instalar o Eslint
-npm install eslint --save-dev
-npm init @eslint/config
+### Install Eslint
+(`npm install eslint --save-dev`)
+(`npm init @eslint/config`)
 
-### Instalar o Prettier
-npm install --save-dev --save-exact prettier
-npm install --save-dev eslint-config-prettier
+### Install Prettier
+(`npm install --save-dev --save-exact prettier`)
+(`npm install --save-dev eslint-config-prettier`)
 
-### Instalar o Husky
-npx husky-init
-npm install
+### Install Husky
+(`npx husky-init`)
+(`npm install`)
 
-### Instalar o Styled Components
+### Install Styled Components
+(`npm install --save-dev @types/styled-components babel-plugin-styled-components`)
+(`npm install --save styled-components`)
 
-npm install --save-dev @types/styled-components babel-plugin-styled-components
-npm install --save styled-components
+## SETUP TESTS
 
-## TESTES
+### Install Jest
+(`npm i jest @babel/preset-typescript @types/jest`)
 
-### Instalar o Jest
-npm i jest @babel/preset-typescript @types/jest
+### Install React Test Library and Jest Dom
+(`npm install --save-dev @testing-library/react @testing-library/jest-dom`)
 
-### Instalar React Test Library e Jest Dom
-npm install --save-dev @testing-library/react @testing-library/jest-dom
-
-### CheatSheet Test Library
-https://github.com/testing-library/react-testing-library/blob/main/other/cheat-sheet.pdf
+<a href= "https://github.com/testing-library/react-testing-library/blob/main/other/cheat-sheet.pdf"><h3>CheatSheet Test Library</h3></a>

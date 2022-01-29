@@ -1,11 +1,11 @@
 /* eslint-disable prettier/prettier */
-import { render, screen } from "@testing-library/react";
+import { render, screen} from "@testing-library/react";
 
-import Pages from "../pages";
+import Main from "components/Main"
 
 describe("<Main>", () => {
   it("should render the heading", () => {
-      render(<Pages/>)
+      render(<Main/>)
 
       expect(
           screen.getByRole('heading',{name:/next.js/i})
@@ -13,3 +13,5 @@ describe("<Main>", () => {
   });
 
 });
+
+
