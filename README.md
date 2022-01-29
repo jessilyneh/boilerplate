@@ -34,6 +34,11 @@ npm install --save-dev eslint-config-prettier
 npx husky-init
 npm install
 
+### Instalar o Styled Components
+
+npm install --save-dev @types/styled-components babel-plugin-styled-components
+npm install --save styled-components
+
 ## TESTES
 
 ### Instalar o Jest
