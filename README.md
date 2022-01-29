@@ -1,13 +1,6 @@
 # Boilerplate frontend
 <p>A simple project starter to work with TypeScript, React, NextJS and Styled Components</p>
 
-<p align="center">
- <a href="## Run the project">Run the project</a><br/>
- <a href="### Run tests">Run tests</a><br/>
- <a href="## SETUP TECHNOLOGIES">Technologies</a><br/>
- <a href="## sETUP TESTS">Tests</a><br/>
-</p>
-
 ### Project status:
 <h4>
 	🚧 doing 🚧
@@ -35,7 +28,7 @@ http://localhost:3000
 `npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"`
 
 ### Install Typescript
-create (`tsconfig.json`)<br/>
+create `tsconfig.json`<br/>
 run `npm install --save-dev typescript @types/react @types/node`<br/>
 run `npm run dev` again, to populate`tsconfig.json`
 
