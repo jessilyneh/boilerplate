@@ -1,4 +1,6 @@
-## Rodar o projeto:
+## Boilerplate Next.js
+
+### Rodar o projeto:
 npm run dev
 http://localhost:3000
 
@@ -6,10 +8,10 @@ http://localhost:3000
 npm test
 npm run test:watch
 
-#### Rodar o eslint
+### Rodar o eslint
 eslint src
 
-#### Corrigir arquivos
+### Corrigir arquivos
 eslint src --fix
 
 ## CONFIGURAÇÕES
@@ -47,5 +49,5 @@ npm i jest @babel/preset-typescript @types/jest
 ### Instalar React Test Library e Jest Dom
 npm install --save-dev @testing-library/react @testing-library/jest-dom
 
-#### CheatSheet
+### CheatSheet Test Library
 https://github.com/testing-library/react-testing-library/blob/main/other/cheat-sheet.pdf
