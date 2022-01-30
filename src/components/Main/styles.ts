@@ -13,7 +13,7 @@ export const Wrapper = styled.main`
   padding: 3rem;
 `;
 export const Logo = styled.img`
-  width: min(25rem, 100%);
+  width: 25rem;
   margin-bottom: 2rem;
 `;
 

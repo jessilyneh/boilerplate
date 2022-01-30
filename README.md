@@ -6,11 +6,17 @@
 	🚧 doing 🚧
 </h4>
 
-## Run the project
+## Project
 
-### Run locally:
+### Run project locally:
 `npm run dev`<br/>
 http://localhost:3000
+
+### Build projetc:
+`npm rum build`
+
+### Start build project:
+`npm start`
 
 ### Run tests:
 `npm test`<br/>
@@ -40,13 +46,19 @@ run `npm run dev` again, to populate`tsconfig.json`
 `npm install --save-dev --save-exact prettier`<br/>
 `npm install --save-dev eslint-config-prettier`
 
-### Install Husky
+### Install Husky 🐺
 `npx husky-init`<br/>
 `npm install`
 
-### Install Styled Components
+### Install Styled Components 💅
 `npm install --save-dev @types/styled-components babel-plugin-styled-components`<br/>
 `npm install --save styled-components`
+
+### Install Next PWA
+`npm install next-pwa`
+
+### Install Webpack5
+` npm install webpack@5`
 
 ## SETUP TESTS
 
@@ -59,4 +71,4 @@ run `npm run dev` again, to populate`tsconfig.json`
 ### Install Jest Styled Components
 `npm install --save-dev jest-styled-components`
 
-<a href= "https://github.com/testing-library/react-testing-library/blob/main/other/cheat-sheet.pdf"><h3>CheatSheet Test Library</h3></a>
+<a href= "https://github.com/testing-library/react-testing-library/blob/main/other/cheat-sheet.pdf"><h3>🐐 CheatSheet Test Library</h3></a>
