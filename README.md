@@ -56,4 +56,7 @@ run `npm run dev` again, to populate`tsconfig.json`
 ### Install React Test Library and Jest Dom
 `npm install --save-dev @testing-library/react @testing-library/jest-dom`
 
+### Install Jest Styled Components
+`npm install --save-dev jest-styled-components`
+
 <a href= "https://github.com/testing-library/react-testing-library/blob/main/other/cheat-sheet.pdf"><h3>CheatSheet Test Library</h3></a>
