@@ -3,8 +3,11 @@
 
 ### Project status:
 <h4>
-	🚧 doing 🚧
+	✅ Done!
 </h4>
+
+#### Improvements roadmap:
+100% test coverage
 
 ## Project
 
