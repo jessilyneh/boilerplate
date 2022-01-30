@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --max-warnings=1",
+    "lint": "eslint src --max-warnings=0",
     "test": "jest",
     "test:watch": "npm test --watch"
   },

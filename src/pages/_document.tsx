@@ -33,7 +33,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-br">
         <Head />
-        <h1>next.js</h1>
         <body>
           <Main />
           <NextScript />

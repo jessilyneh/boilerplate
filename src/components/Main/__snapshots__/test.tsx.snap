@@ -1,9 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main> should render the heading 1`] = `
-<main>
-  <h2>
-    next.js
+<main
+  class="styles__Wrapper-sc-1vdqulg-0 hjPOMa"
+>
+  <img
+    alt="circulo preenchido da cor preta com a letra N sem serifa vasada"
+    class="styles__Logo-sc-1vdqulg-1 hARuWt"
+    src="/img/3Logos.png"
+  />
+  <h1
+    class="styles__Title-sc-1vdqulg-2 juhNJc"
+  >
+    Boilerplate
+  </h1>
+  <h2
+    class="styles__Description-sc-1vdqulg-3 jOnQTX"
+  >
+    Typescript, React.js, Next.js and Styled Components
   </h2>
+  <img
+    alt="desenho de gatinho cinza feliz sorrindo e acenando, com chapéu de aniversário"
+    class="styles__Illustration-sc-1vdqulg-4 iOChCs"
+    src="/img/gatinhoAniversário.gif"
+  />
 </main>
 `;
